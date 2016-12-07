@@ -25,7 +25,6 @@
     "mocha": "^2.3.2"
   },
   "dependencies": {
-    "aws": "0.0.3-2",
     "aws-sdk": "^2.7.10",
     "bluebird": "^3.4.6",
     "hoek": "^4.1.0",
