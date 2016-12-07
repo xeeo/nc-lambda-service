@@ -1,0 +1,35 @@
+{
+  "name": "nc-lambda-service",
+  "version": "1.0.0",
+  "description": "A simple wrapper over AWS Lambda",
+  "main": "src/implementation.js",
+  "scripts": {
+    "test": "mocha test/*.mocha.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xeeo/nc-lambda-service.git"
+  },
+  "keywords": [
+    "aws",
+    "lambda"
+  ],
+  "author": "Raul Geana <geana.raul@icloud.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xeeo/nc-lambda-service/issues"
+  },
+  "homepage": "https://github.com/xeeo/nc-lambda-service#readme",
+  "devDependencies": {
+    "chai": "^3.2.0",
+    "mocha": "^2.3.2"
+  },
+  "dependencies": {
+    "aws": "0.0.3-2",
+    "aws-sdk": "^2.7.10",
+    "bluebird": "^3.4.6",
+    "hoek": "^4.1.0",
+    "joi": "^10.0.5",
+    "nc-singleton": "^1.0.3"
+  }
+}
